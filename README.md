@@ -1,4 +1,4 @@
-# crack_the_cipher
+# Crack the Cipher
 
 Crack the Cipher is a fun code-cracking game that teaches python programming and problem solving.
 
