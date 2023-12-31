@@ -6,6 +6,6 @@ To play the game download the file of the level you want to play. Put it in some
 
 > from level_{your level} import cipher
 
-Your goal is to 'crack' the cipher function, you do so by calling it with some values. The cipher function will rais an error if there is a problem with your input, and it will return False if you havn't yet cracked the puzzle. If it returns True you solved the level and the cipher function will also print a congratulations message.
+Your goal is to 'crack' the cipher function, you do so by calling it with some values. The cipher function will rais an error if there is a problem with your input. The cipher function also may returm some values, those will help you solve the puzzle (or not). When you call the cipher function with the correct input (or sequence of inputs) it will print a congratulations message and exit the program.
 
 The only rules of the game are to not look/change the level file in any way (opening it, importing other functions from it, writig to it, etc...). Other than that do whatever you want to crack the cipher!
